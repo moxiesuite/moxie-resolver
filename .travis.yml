@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker pull truffle/ci
+  - docker pull moxie/ci
 
 env:
   - TEST=repo
@@ -22,4 +22,4 @@ script:
         -e TRAVIS_PULL_REQUEST_BRANCH \
         -e TRAVIS_BRANCH \
         -e TEST \
-      truffle/ci:latest run_tests
+      moxie/ci:latest run_tests

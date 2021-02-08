@@ -1,5 +1,6 @@
 {
-  "name": "truffle-resolver",
+  "name": "moxie-resolver",
+  "namespace": "moxiesuite",
   "version": "4.0.3",
   "description": "Resolve contract dependencies given multiple configurable dependency sources",
   "main": "index.js",
@@ -8,25 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-resolver.git"
+    "url": "git+https://github.com/moxiesuite/moxie-resolver.git"
   },
   "keywords": [
-    "ethereum",
-    "truffle",
+    "vapory",
+    "moxie",
     "dependencies",
     "resolver"
   ],
   "author": "Tim Coulter <tim.coulter@consensys.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-resolver/issues"
+    "url": "https://github.com/moxiesuite/moxie-resolver/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-resolver#readme",
+  "homepage": "https://github.com/moxiesuite/moxie-resolver#readme",
   "dependencies": {
     "async": "^2.1.4",
-    "truffle-contract": "^3.0.5",
-    "truffle-expect": "0.0.3",
-    "truffle-provisioner": "^0.1.0"
+    "moxie-contract": "^3.0.5",
+    "moxie-expect": "0.0.3",
+    "moxie-provisioner": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "^3.2.0"

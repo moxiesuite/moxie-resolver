@@ -2,9 +2,9 @@ var EPMSource = require("./epm");
 var NPMSource = require("./npm");
 var FSSource = require("./fs");
 var whilst = require("async/whilst");
-var contract = require("truffle-contract");
-var expect = require("truffle-expect");
-var provision = require("truffle-provisioner");
+var contract = require("moxie-contract");
+var expect = require("moxie-expect");
+var provision = require("moxie-provisioner");
 
 function Resolver(options) {
   expect.options(options, [
